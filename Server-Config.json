@@ -1,0 +1,52 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "trojan",
+      "tag": "trojan-in",
+      "listen": "::",
+      "listen_port": 443,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "prefer_ipv6",
+      "users": [
+        {
+          "password": "8888e0a9-3731-4302-abcd-091ed1faf8b6"
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "ftp.debian.org",
+	"alpn": ["h3", "spdy/3.1"],
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "ftp.debian.org",
+            "server_port": 443
+          },
+          "private_key": "mOPcntEEW3kKv2bV7CriUCntnWaIQAri0YX4ndz2jnw",
+          "short_id": [
+            "069c5fa05902862f"
+          ]
+        }
+      },
+      "transport": {
+        "type": "grpc",
+	"permit_without_stream": false
+     }
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
