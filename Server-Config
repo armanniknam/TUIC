@@ -9,7 +9,6 @@
     "alpn": ["h3", "spdy/3.1"],
     "udp_relay_ipv6": false,
     "zero_rtt_handshake": false,
-    "dual_stack": false,
     "auth_timeout": "3s",
     "task_negotiation_timeout": "3s",
     "max_idle_time": "10s",
