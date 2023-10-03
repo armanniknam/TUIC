@@ -5,10 +5,11 @@
     },
     "certificate": "/root/tuic/ca.crt",
     "private_key": "/root/tuic/ca.key",
-    "congestion_control": "bbr",
+    "congestion_control": "cubic",
     "alpn": ["h3", "spdy/3.1"],
-    "udp_relay_ipv6": false,
+    "udp_relay_ipv6": true,
     "zero_rtt_handshake": false,
+    "dual_stack": true
     "auth_timeout": "3s",
     "task_negotiation_timeout": "3s",
     "max_idle_time": "10s",
