@@ -1,5 +1,5 @@
 {
-    "server": "[::]:443",
+    "server": "[::]:2096",
     "users": {
         "6882df23-0e9c-4c71-906e-172db8cb7a28": "AshgabatKurmanj1998"
     },
