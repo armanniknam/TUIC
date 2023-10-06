@@ -5,7 +5,7 @@
     },
     "certificate": "/root/tuic/ca.crt",
     "private_key": "/root/tuic/ca.key",
-    "congestion_control": "cubic",
+    "congestion_control": "bbr",
     "alpn": ["h3", "spdy/3.1"],
     "udp_relay_ipv6": true,
     "zero_rtt_handshake": false,
