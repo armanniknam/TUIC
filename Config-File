@@ -1,7 +1,7 @@
 {
     "server": "[::]:2096",
     "users": {
-        "6882df23-0e9c-4c71-906e-172db8cb7a28": "AshgabatKurmanj1998"
+        "0e1d4ab7-a0bd-4725-8b75-cf843224350e": "AshgabatKurmanj1998"
     },
     "certificate": "/root/tuic/ca.crt",
     "private_key": "/root/tuic/ca.key",
