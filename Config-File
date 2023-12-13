@@ -1,12 +1,12 @@
 {
     "server": "[::]:2096",
     "users": {
-        "0e1d4ab7-a0bd-4725-8b75-cf843224350e": "AshgabatKurmanj1998"
+        "18e32963-a598-4498-b49c-0430249ec43c": "cHh7juGPY+iD//OctbJTfHzUzfioJztrg5g+sa++/Dw="
     },
     "certificate": "/root/tuic/ca.crt",
     "private_key": "/root/tuic/ca.key",
     "congestion_control": "bbr",
-    "alpn": ["h3", "spdy/3.1"],
+    "alpn": ["h3"],
     "udp_relay_ipv6": true,
     "zero_rtt_handshake": false,
     "dual_stack": true,
