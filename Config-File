@@ -1,7 +1,7 @@
 {
-    "server": "[::]:2096",
+    "server": "[::]:500",
     "users": {
-        "18e32963-a598-4498-b49c-0430249ec43c": "cHh7juGPY+iD//OctbJTfHzUzfioJztrg5g+sa++/Dw="
+        "89674f7e-3bdb-4c73-9464-3806a79fd842": "C/SuMkxSDJ7liiwlNlq1XQhX"
     },
     "certificate": "/root/tuic/ca.crt",
     "private_key": "/root/tuic/ca.key",
@@ -12,7 +12,7 @@
     "dual_stack": true,
     "auth_timeout": "3s",
     "task_negotiation_timeout": "3s",
-    "max_idle_time": "10s",
+    "max_idle_time": "60s",
     "max_external_packet_size": 1500,
     "send_window": 16777216,
     "receive_window": 8388608,
