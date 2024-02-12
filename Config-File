@@ -1,7 +1,7 @@
 {
     "server": "[::]:2096",
     "users": {
-        "f9fc621b-6c56-41b1-aa12-0cf78eb43764":
+        "25811eeb-8241-41e3-aa54-66b85a3a827e":
         "2vVI49iM6loT8AVAf/od4Ah2"
     },
     "certificate": "/root/tuic-folder/ca.crt",
