@@ -2,7 +2,7 @@
     "server": "[::]:443",
     "users": {
         "25811eeb-8241-41e3-aa54-66b85a3a827e":
-        "2vVI49iM6loT8AVAf/od4Ah2"
+        "1b2147ef-2df5-4809-9544-9113a151c0e1"
     },
     "certificate": "/root/tuic-folder/ca.crt",
     "private_key": "/root/tuic-folder/ca.key",
