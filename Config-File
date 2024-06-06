@@ -1,13 +1,13 @@
 {
-    "server": "[::]:443",
+    "server": "[::]:5060",
     "users": {
         "25811eeb-8241-41e3-aa54-66b85a3a827e":
-        "1b2147ef-2df5-4809-9544-9113a151c0e1"
+        "MOvLqO6dTcWv8+oP74XDcInLO9cmm/cWvO4LhhO69OI="
     },
     "certificate": "/root/tuic-folder/ca.crt",
     "private_key": "/root/tuic-folder/ca.key",
     "congestion_control": "bbr",
-    "alpn": ["h3","spdy/3.1"],
+    "alpn": ["h3"],
     "udp_relay_ipv6": true,
     "zero_rtt_handshake": false,
     "dual_stack": true,
