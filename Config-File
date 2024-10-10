@@ -13,7 +13,7 @@
     "dual_stack": true,
     "auth_timeout": "3s",
     "task_negotiation_timeout": "3s",
-    "max_idle_time": "30s",
+    "max_idle_time": "60s",
     "max_external_packet_size": 1500,
     "send_window": 25165824,
     "receive_window": 16777216,
