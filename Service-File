@@ -1,5 +1,7 @@
 [Unit]
+Description=TUIC Service
 After=network.target nss-lookup.target
+
 [Service]
 User=root
 WorkingDirectory=/root/tuic-folder
@@ -9,5 +11,6 @@ ExecStart=/root/tuic-folder/tuic -c /root/tuic-folder/config.json
 Restart=on-failure
 RestartSec=10
 LimitNOFILE=infinity
+
 [Install]
 WantedBy=multi-user.target
