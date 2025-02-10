@@ -1,22 +1,21 @@
 {
-    "server": "[::]:5060",
+    "server": "[::]:8080",
     "users": {
         "25811eeb-8241-41e3-aa54-66b85a3a827e":
-        "MOvLqO6dTcWv8+oP74XDcInLO9cmm/cWvO4LhhO69OI="
+        "1LqDvRWmiWfzFAGOGggtDw"
     },
     "certificate": "/root/tuic-folder/ca.crt",
     "private_key": "/root/tuic-folder/ca.key",
     "congestion_control": "bbr",
-    "alpn": ["h3"],
     "udp_relay_ipv6": true,
     "zero_rtt_handshake": false,
     "dual_stack": true,
     "auth_timeout": "3s",
     "task_negotiation_timeout": "3s",
-    "max_idle_time": "60s",
+    "max_idle_time": "45s",
     "max_external_packet_size": 1500,
-    "send_window": 25165824,
-    "receive_window": 16777216,
+    "send_window": 15728640,
+    "receive_window": 6291456,
     "gc_interval": "3s",
     "gc_lifetime": "15s",
     "log_level": "warn"
